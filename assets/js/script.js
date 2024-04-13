@@ -76,7 +76,7 @@ $(document).ready(function () {
   
         $.ajax({
           type: "GET",
-          url: "api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}" + lat + "&lon=" + lon,
+          url: "api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={1bd61f60e655007fbc909a547f6f9656}" + lat + "&lon=" + lon,
   
   
         }).then(function (response) {
@@ -112,7 +112,7 @@ $(document).ready(function () {
     function weatherForecast(searchTerm) {
       $.ajax({
         type: "GET",
-        url: "https://api.openweathermap.org/data/2.5/forecast?q=" + searchTerm + "1bd61f60e655007fbc909a547f6f9656",
+        url: "api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid=" + searchTerm + "1bd61f60e655007fbc909a547f6f9656",
   
       }).then(function (data) {
         console.log(data);
