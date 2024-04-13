@@ -1,0 +1,22 @@
+#forecast {
+    position: absolute;
+    left: -3%;
+}
+
+h1 {
+    margin-bottom: 0%;
+    background-image: linear-gradient(to right, rgb(196, 112, 44), rgb(223, 159, 22) , rgb(235, 217, 55));
+}
+
+img {.\assets\weather.jpg.jpg
+    {
+        width: 100%;
+    }
+    height: auto;
+}
+
+body {
+    background-image: url('../weather.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
